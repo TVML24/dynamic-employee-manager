@@ -1,0 +1,28 @@
+{
+  "name": "dynamic-employee-manager",
+  "version": "1.0.0",
+  "description": "A challenge project based on the learning outcomes of object oriented programming week.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TVML24/dynamic-employee-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TVML24/dynamic-employee-manager/issues"
+  },
+  "homepage": "https://github.com/TVML24/dynamic-employee-manager#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^8.2.4",
+    "jest": "^29.4.3"
+  }
+}
