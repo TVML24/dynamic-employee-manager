@@ -4,6 +4,7 @@
 }
 header {
     background: red;
+    color: white;
     display: flex;
     justify-content: center;
     padding-top: 2%;
@@ -17,13 +18,12 @@ main {
     display: flex;
     width:100%;
     height:100%;
-    background: gold;
+    background: antiquewhite;
     justify-content: space-around;
     align-items: center;
     
 }
 .card {
-    background: white;
     height: 35%;
     width: 14%;
     display: flex;
@@ -31,7 +31,7 @@ main {
     border-radius: 15px 15px 10px 10px;
 }
 .card-header {
-    background: purple;
+    background: blue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,9 +40,15 @@ main {
 }
 h2 {
     margin-left: 5%;
+    color: white;
 }
+
+.card {
+    box-shadow: 10px 5px 5px black;
+}
+
 .card-body {
-    background:orange;
+    background:whitesmoke;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -50,7 +56,7 @@ h2 {
     border-radius: 0px 0px 10px 10px;
 }
 .id-div, .email-div, .extra {
-    background: green;
+    background: lightgray;
     padding-top:4%;
     padding-bottom: 4%;
     margin-left: 3%;
